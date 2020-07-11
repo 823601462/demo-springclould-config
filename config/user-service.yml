@@ -1,0 +1,17 @@
+server:
+   port: 8888
+   context-path: /config-server
+spring:
+   application:
+      name: config-server
+   profiles: 
+      active: dev
+   cloud:
+      config:
+        server:
+           git:
+              uri: https://github.com/823601462/demo-springclould-config/
+              searchPaths: config
+              username: 823601462@qq.com
+              password: liu521@?
+           label: master
