@@ -34,5 +34,6 @@ redis:
     smscodeTimout: 120        #短信验证码失效时间 单位秒
   isDemoSite: no
   ssl: off #是否开启ssl
+foo: fooversion
 
         
