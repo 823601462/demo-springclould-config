@@ -1,6 +1,2 @@
-  
-data:
-  env: localhost-dev-edit888
-  user:
-    username: fengzheng-dev999
-    password: password-dev
+foo = foo version 21
+democonfigclient.message=hello spring io
