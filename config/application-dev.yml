@@ -4,7 +4,7 @@ spring:
 
 #数据库配置
   datasource:
-    url: jdbc:mysql://192.168.6.128:3306/goods?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+    url: jdbc:mysql://192.168.6.128:3306/mysql?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
     username: root
     password: liu521
     driver-class-name: com.mysql.jdbc.Driver
@@ -12,7 +12,7 @@ spring:
       web-stat-filter:
         enabled: false
       goods:
-        url: jdbc:mysql://192.168.6.128:3306/goods?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+        url: jdbc:mysql://192.168.6.128:3306/mysql?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
 
 
 #redis 配置
